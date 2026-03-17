@@ -1,19 +1,21 @@
-s=input("Enter a String: ")
-upper_char=0
-lower_char=0
-num_char=0
-space_char=0
-for i in s:
-    if i.isupper():
-        upper_char+=1
-    elif i.islower():
-        lower_char+=1
-    elif i.isnumeric():
-        num_char+=1
-    elif i.isspace():
-        space_char+=1
- 
-print(upper_char)
-print(lower_char)
-print(num_char)
-print(space_char)
+text = input("Enter a string: ")
+
+upper_count = 0
+lower_count = 0
+number_count = 0
+space_count = 0
+
+for char in text:
+    if char.isupper():
+        upper_count += 1
+    elif char.islower():
+        lower_count += 1
+    elif char.isdigit():
+        number_count += 1
+    elif char.isspace():
+        space_count += 1
+
+print("Uppercase letters :", upper_count)
+print("Lowercase letters :", lower_count)
+print("Numbers           :", number_count)
+print("Spaces            :", space_count)

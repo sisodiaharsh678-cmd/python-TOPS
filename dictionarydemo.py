@@ -21,6 +21,6 @@ for key , value in d.items():
     print(key , " : " , value)    
 
 if  897 in d:
-        print("897 is inside alread" )
+        print("897 is inside already" )
 else:
      print("not inside ")

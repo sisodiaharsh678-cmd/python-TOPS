@@ -1,4 +1,4 @@
-#make dic 10 key 10 values all int make even sum nd odd sum 
+
 
 d = {1:10 , 2:15 , 3:20 , 4:16 , 5:8 , 6:12 , 7:34 , 8:9 , 9:10 , 10:15}
 
