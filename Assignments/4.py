@@ -14,4 +14,4 @@ else:
 
 result = new_str1 + " " + new_str2
 
-print("final string" , result )
+print("final string : " , result )

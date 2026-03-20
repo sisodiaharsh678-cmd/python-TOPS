@@ -17,3 +17,5 @@ print("word Count : ")
 
 for key , value in count_dict.items():
     print(key,":" , value)
+
+
