@@ -8,7 +8,7 @@ for num in n:
         unique_value.append(num)
 print(unique_value)   
 
-
+#max number
 n = [10,20,4,45,99]
 
 first = second = float('-inf')
@@ -21,6 +21,8 @@ for num in n:
         second=num
 print(second)             
        
+
+#min value       
 n = [8,3,5,1,9]
 
 min_value = n[0]
